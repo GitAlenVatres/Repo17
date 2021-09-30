@@ -4,7 +4,7 @@ function main(foo, boo) {
 
 // Only change code below this line
 
-const [foo, boo]= [45, 12];
+[foo, boo]= [boo, foo];
 
 // Only change code above this line
 return {foo, boo}
