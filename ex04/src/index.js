@@ -8,9 +8,11 @@ function main(baking) {
 
 // Only change code below this line
 
-const { lowBread: bread.low } = baking;
+const { bread: {low: lowBread } 
+}= baking;
 
-const { highBread: bread.high } = baking;
+const { bread: {high: highBread } 
+}= baking;
 
 return {
 	lowBread,
